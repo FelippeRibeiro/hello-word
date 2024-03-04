@@ -6,7 +6,7 @@ app.use(express.static('public'));
 
 app.get('/hello', (req, res) => {
   console.log("Request incoming");
-  res.send('Hello World!, SSL certificate is working!');
+  res.send('Hello World!');
 });
 
 app.listen(80,()=>{
